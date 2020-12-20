@@ -1,0 +1,165 @@
+html,body{
+  background-image: url(bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+.box{
+  margin: 4% auto;
+  font-family: sans-serif;
+  letter-spacing: 5px;
+  width: 500px;
+  font-size: 1.8rem;
+  padding: 20px;
+  box-shadow: 5px 1px 4px 0px rgba(0, 0, 0, 0.2);
+  background-color: black;
+  
+  opacity: 70%;
+}
+
+
+div#heading{
+  font-size: 3rem;
+  color: rgb(247, 222, 0);
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+
+.textspace{
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  height: 60px;
+  padding-right: 70px;
+  padding-top: 10px;
+  text-align: right;
+  margin-right: 6px;
+  margin-bottom: 10px;
+  font-size: 2.5rem;
+  color: white;
+  overflow-x: hidden;
+  border: 1px solid #bbb;
+  box-shadow: inset 5px 5px 10px -1px #00ff00;
+  transition: all .2s ease-in-out;
+  opacity: 100%;
+}
+
+/*NUMBERS*/
+.numbers div{
+  display: inline-block;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 10px 4px 10px 0;
+  margin-right: 7px;
+  margin-left: 6px;
+  width: 80px;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  box-shadow: 3px 5px 10px -1px #ffff00;
+  transition: all .1s ease-in-out;
+}
+.numbers div:hover{
+  font-weight: bold;
+    color: #ffff00;
+}
+.numbers div:active{
+box-shadow: none;
+}
+
+
+
+/*OPERATORS*/
+.operator div{
+  display: inline-block;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 10px 4px 10px 0px;
+  width: 80px;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  color: white;
+  margin-right: 7px;
+  box-shadow: 3px 5px 10px -1px #00ffff;
+  margin-left: 6px;
+  transition: all .1s ease-in-out;
+}
+.operator div:hover{
+  font-weight: bold;
+  color: #00ffff;
+}
+
+.operator div:active{
+  box-shadow: none;
+}
+
+div .sine{
+  box-shadow: 3px 5px 10px -1px #00ffff;
+  transition: all .1s ease-in-out;
+}
+div .sine:hover{
+  color: #00ffff;
+  font-weight: bold;
+}
+div .sine:active{
+  box-shadow: none;
+}
+div .cos{
+  box-shadow: 3px 5px 10px -1px #00ffff;
+  transition: all .1s ease-in-out;
+}
+div .cos:hover{
+  color: #00ffff;
+  font-weight: bold;
+}
+div .cos:active{
+  box-shadow: none;
+}
+div .tan{
+  box-shadow: 3px 5px 10px -1px #00ffff;
+  transition: all .1s ease-in-out;
+}
+div .tan:hover{
+  color: #00ffff;
+  font-weight: bold;
+}
+div .tan:active{
+  box-shadow: none;
+}
+
+
+/*EQUAL SIGN*/
+div#equal{
+  
+  box-shadow: 3px 5px 10px -1px #00ff00;
+  transition: all .1s ease-in-out;
+}
+
+div#equal:hover{
+  color: #00ff00;
+  font-weight: bold;
+}
+div#equal:active{
+  box-shadow: none;
+}
+
+/*ALL CLEAR SIGN. */
+div#clear{
+  text-transform: uppercase;
+  box-shadow: 5px 5px 10px -1px #ff0000;
+  transition: all .1s ease-in-out;
+}
+div#clear:hover{
+  color: #ff0000;
+  font-weight: bold;
+}
+div#clear:active{
+  box-shadow: none;
+}
